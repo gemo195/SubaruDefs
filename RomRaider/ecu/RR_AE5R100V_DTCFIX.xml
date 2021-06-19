@@ -536,6 +536,10 @@
     <table name="Force Pass Readiness Monitors " storageaddress="B3390" />
     <table name="(P0000) PASS CODE (NO DTC DETECTED)" storageaddress="ED72B" />
     <table name="(P0000) PASS CODE (NO DTC DETECTED) " storageaddress="ED72C" />
+    <table name="(P000A) A CAMSHAFT POSITION SLOW RESPONSE (BANK 1)" storageaddress="ED7B0" />
+    <table name="(P000B) B CAMSHAFT POSITION SLOW RESPONSE (BANK 1)" storageaddress="ED7B1" />
+    <table name="(P000C) A CAMSHAFT POSITION SLOW RESPONSE (BANK 2)" storageaddress="ED7B2" />
+    <table name="(P000D) B CAMSHAFT POSITION SLOW RESPONSE (BANK 2)" storageaddress="ED7B3" />
     <table name="(P0011) CAMSHAFT POS. - TIMING OVER-ADVANCED 1" storageaddress="ED718" />
     <table name="(P0014) EXHAUST AVCS SYSTEM 1 RANGE/PERF" storageaddress="ED782" />
     <table name="(P0016) CRANKSHAFT/CAMSHAFT CORRELATION 1A" storageaddress="ED779" />
@@ -558,6 +562,7 @@
     <table name="(P0111) IAT SENSOR RANGE/PERF" storageaddress="ED733" />
     <table name="(P0112) IAT SENSOR LOW INPUT" storageaddress="ED731" />
     <table name="(P0113) IAT SENSOR HIGH INPUT" storageaddress="ED732" />
+    <table name="(P0116) COOLANT TEMP SENSOR 1 CIRCUIT RANGE/PERF" storageaddress="ED7BA" />
     <table name="(P0117) COOLANT TEMP SENSOR LOW INPUT" storageaddress="ED70E" />
     <table name="(P0118) COOLANT TEMP SENSOR HIGH INPUT" storageaddress="ED70F" />
     <table name="(P0122) TPS A LOW INPUT" storageaddress="ED70C" />
@@ -590,6 +595,7 @@
     <table name="(P0244) WASTEGATE SOLENOID A RANGE/PERF" storageaddress="ED73D" />
     <table name="(P0245) WASTEGATE SOLENOID A LOW" storageaddress="ED73B" />
     <table name="(P0246) WASTEGATE SOLENOID A HIGH" storageaddress="ED73C" />
+    <table name="(P0300) RANDOM/MULTIPLE CYLINDER MISFIRE DETECTED" storageaddress="ED7C6" />
     <table name="(P0301) MISFIRE CYLINDER 1" storageaddress="ED725" />
     <table name="(P0302) MISFIRE CYLINDER 2" storageaddress="ED726" />
     <table name="(P0303) MISFIRE CYLINDER 3" storageaddress="ED727" />
@@ -601,12 +607,15 @@
     <table name="(P0340) CAMSHAFT POS. SENSOR A MALFUNCTION" storageaddress="ED755" />
     <table name="(P0341) CAMSHAFT POS. SENSOR A RANGE/PERF" storageaddress="ED7C5" />
     <table name="(P0345) CAMSHAFT POS. SENSOR A BANK 2" storageaddress="ED754" />
+    <table name="(P0346) CAMSHAFT POS. SENSOR A CIRCUIT RANGE/PERF BANK 2" storageaddress="ED7C4" />
     <table name="(P0351) IGNITION COIL A PRIMARY/SECONDARY CIRCUIT MALFUNCTION" storageaddress="ED7AF" />
     <table name="(P0352) IGNITION COIL B PRIMARY/SECONDARY CIRCUIT MALFUNCTION" storageaddress="ED7AE" />
     <table name="(P0353) IGNITION COIL C PRIMARY/SECONDARY CIRCUIT MALFUNCTION" storageaddress="ED7AD" />
     <table name="(P0354) IGNITION COIL D PRIMARY/SECONDARY CIRCUIT MALFUNCTION" storageaddress="ED7AC" />
     <table name="(P0365) CAMSHAFT POS. SENSOR B BANK 1" storageaddress="ED753" />
+    <table name="(P0366) CAMSHAFT POS. SENSOR B CIRCUIT RANGE/PERF BANK 1" storageaddress="ED7C3" />
     <table name="(P0390) CAMSHAFT POS. SENSOR B BANK 2" storageaddress="ED752" />
+    <table name="(P0391) CAMSHAFT POS. SENSOR B CIRCUIT RANGE/PERF BANK 2" storageaddress="ED7C2" />
     <table name="(P0410) SECONDARY AIR PUMP SYSTEM" storageaddress="ED771" />
     <table name="(P0411) SECONDARY AIR PUMP INCORRECT FLOW" storageaddress="ED770" />
     <table name="(P0413) SECONDARY AIR PUMP A OPEN" storageaddress="ED775" />
@@ -625,14 +634,26 @@
     <table name="(P0461) FUEL LEVEL SENSOR RANGE/PERF" storageaddress="ED713" />
     <table name="(P0462) FUEL LEVEL SENSOR LOW INPUT" storageaddress="ED711" />
     <table name="(P0463) FUEL LEVEL SENSOR HIGH INPUT" storageaddress="ED712" />
+    <table name="(P04AC) EVAP SYSTEM PURGE CONTROL VALVE B CIRCUIT LOW" storageaddress="ED7C7" />
+    <table name="(P04AD) EVAP SYSTEM PURGE CONTROL VALVE B CIRCUIT HIGH" storageaddress="ED7C8" />
+    <table name="(P04DB) CRANKCASE VENTILATION SYSTEM DISCONNECTED" storageaddress="ED7CB" />
     <table name="(P0500) VEHICLE SPEED SENSOR A" storageaddress="ED709" />
     <table name="(P0506) IDLE CONTROL RPM LOWER THAN EXPECTED" storageaddress="ED716" />
     <table name="(P0507) IDLE CONTROL RPM HIGH THAN EXPECTED" storageaddress="ED717" />
     <table name="(P050A) COLD START IDLE AIR CONTROL SYSTEM PERFORMANCE" storageaddress="ED792" />
     <table name="(P050B) COLD START IGNITION TIMING PERFORMANCE" storageaddress="ED791" />
+    <table name="(P050E) COLD START ENGINE EXHAUST TEMPERATURE OUT OF RANGE" storageaddress="ED783" />
     <table name="(P0512) STARTER REQUEST CIRCUIT" storageaddress="ED7B4" />
+    <table name="(P0560) BACKUP POWER SUPPLY" storageaddress="ED7B9" />
     <table name="(P0604) CONTROL MODULE RAM ERROR" storageaddress="ED706" />
     <table name="(P0605) CONTROL MODULE ROM ERROR" storageaddress="ED756" />
+    <table name="(P0606) MICRO-COMPUTER (CPU FAILURE)" storageaddress="ED7BF" />
+    <table name="(P060A) INTERNAL CONTROL MODULE MONITORING PROCESSOR PERFORMANCE" storageaddress="ED7BE" />
+    <table name="(P060B) INTERNAL CONTROL MODULE A/D PROCESSING PERFORMANCE" storageaddress="ED7BD" />
+    <table name="(P0616) STARTER RELAY CIRCUIT (LOW)" storageaddress="ED7B5" />
+    <table name="(P0617) STARTER RELAY CIRCUIT (HIGH)" storageaddress="ED7B6" />
+    <table name="(P062F) EEPROM ERROR" storageaddress="ED7BC" />
+    <table name="(P081A) STARTER CUT RELAY SYSTEM CIRCUIT (LOW)" storageaddress="ED7BB" />
     <table name="(P0851) NEUTRAL SWITCH INPUT LOW" storageaddress="ED714" />
     <table name="(P0852) NEUTRAL SWITCH INPUT HIGH" storageaddress="ED715" />
     <table name="(P1160) ABNORMAL RETURN SPRING" storageaddress="ED746" />
@@ -665,13 +686,21 @@
     <table name="(P2102) THROTTLE ACTUATOR CIRCUIT LOW" storageaddress="ED747" />
     <table name="(P2103) THROTTLE ACTUATOR CIRCUIT HIGH" storageaddress="ED748" />
     <table name="(P2109) TPS A MINIMUM STOP PERF" storageaddress="ED743" />
+    <table name="(P2119) THROTTLE CONTROL CIRCUIT RANGE/PERF PROBLEM" storageaddress="ED7C0" />
     <table name="(P2122) TPS D CIRCUIT LOW INPUT" storageaddress="ED74E" />
     <table name="(P2123) TPS D CIRCUIT HIGH INPUT" storageaddress="ED74F" />
     <table name="(P2127) TPS E CIRCUIT LOW INPUT" storageaddress="ED74C" />
     <table name="(P2128) TPS E CIRCUIT HIGH INPUT" storageaddress="ED74D" />
     <table name="(P2135) TPS A/B VOLTAGE" storageaddress="ED750" />
     <table name="(P2138) TPS D/E VOLTAGE" storageaddress="ED74B" />
+    <table name="(P2158) VEHICLE SPEED SENSOR B" storageaddress="ED7CC" />
+    <table name="(P2195) O2 SENSOR SIGNAL BIASED/STUCK LEAN BANK 1 SENSOR 1" storageaddress="ED7B7" />
+    <table name="(P2196) O2 SENSOR SIGNAL BIASED/STUCK RICH BANK 1 SENSOR 1" storageaddress="ED7B8" />
     <table name="(P219A) BANK 1 AFR IMBALANCE" storageaddress="ED7A3" />
+    <table name="(P2257) AIR SYSTEM CONTROL A CIRCUIT LOW" storageaddress="ED7C9" />
+    <table name="(P2258) AIR SYSTEM CONTROL A CIRCUIT HIGH" storageaddress="ED7CA" />
+    <table name="(P2270) O2 SENSOR SIGNAL BIASED/STUCK LEAN BANK 1 SENSOR 2" storageaddress="ED7D0" />
+    <table name="(P2271) O2 SENSOR SIGNAL BIASED/STUCK RICH BANK 1 SENSOR 2" storageaddress="ED7CF" />
     <table name="(P2401) EVAP LEAK DETECTION PUMP CONTROL CIRCUIT LOW" storageaddress="ED796" />
     <table name="(P2402) EVAP LEAK DETECTION PUMP CONTROL CIRCUIT HIGH" storageaddress="ED7A5" />
     <table name="(P2404) EVAP LEAK DETECTION PUMP SENSE CIRCUIT RANGE/PERF" storageaddress="ED7A4" />
